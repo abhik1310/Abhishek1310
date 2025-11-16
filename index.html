@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>For You 💜</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Password Screen -->
+<div id="password-screen" class="password-screen" aria-hidden="false">
+<div class="password-container" role="dialog" aria-modal="true" aria-labelledby="passTitle">
+<div class="cat-emoji" aria-hidden="true">🐱</div>
+<h2 id="passTitle">Enter the Secret Code</h2>
+<label for="password-input" class="visually-hidden">Secret code</label>
+<input type="password" id="password-input" placeholder="Password Likhiye ji☺️" autocomplete="off" inputmode="text">
+<div class="actions">
+<button id="submit-btn" type="button">Enter</button>
+</div>
+<p id="error-msg" class="error-msg" aria-live="polite"></p>
+</div>
+</div>
+
+
+<!-- Main Content -->
+<main id="main-content" class="main-content hidden" role="main" aria-hidden="true">
+
+
+<!-- Floating decorative layers (accessible as presentational) -->
+<div class="floating-layer hearts" aria-hidden="true"></div>
+<div class="floating-layer cats" aria-hidden="true"></div>
+<div class="floating-layer sparkles" aria-hidden="true"></div>
+
+
+<!-- Main Message -->
+<section class="message-container">
+<article class="message-box">
+<h1 class="title">I Am Really Sorry Purva<span class="emoji">😢</span></h1>
+
+
+<figure class="image-container">
+<img src="image.png" alt="A picture I chose for you" class="apology-image" id="apology-image" loading="lazy">
+</figure>
+
+
+<div class="message-content">
+<p class="message-text typewriter-text" data-text="I Know Tu Muze Galat Samajh Rahi Hai.."></p>
+<p class="message-text typewriter-text" data-text="But I Am Really Sorry..."></p>
+<p class="message-text typewriter-text" data-text="Yrr Koi Bf Bhi Apni Bandi ke liye itna nhi karta hoga😭"></p>
+<p class="message-text typewriter-text" data-text="AtLeast Iss Mehnat Ke Liye Maaf Karde Please👀😊"></p>
+</div>
+
+
+<div class="signature">—Abhishek<span aria-hidden="true">👀</span></div>
+
+
+</article>
+</section>
+
+
+</main>
+
+
+<script src="script.js" defer></script>
+</body>
+</html>
